@@ -1,14 +1,18 @@
 import "./Message.css";
+import { useState } from 'react';
 
 
-function Message({ hello, name }) {
+function Message({ author, text }) {
 
-    return (
-        <div className="hello">
-            <h1 className="hello-heading">{hello}</h1>
-            <p className="hello-text">Try to learn me, <span className="userName">{name}</span></p>
-        </div >
-    );
+    return <li className="message-el">
+        <div className="message-el-name-wrp">
+            <div className="message-el-name">{author}</div>
+        </div>
+        <div className="message-el-text-wrp">
+            <div className="message-el-text">{text}</div>
+        </div>
+    </li>
+
 }
 
 export default Message;

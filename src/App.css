@@ -1,6 +1,10 @@
 .App {
+  min-height: 100vh;
   text-align: center;
-  background-color: rgb(47, 203, 223);
-  height: 100vh;
-  padding: 30px;
+  background-color: rgb(32, 169, 215);
+  padding: 20px 30px 10px 30px;
+}
+
+.message-list {
+  padding: 0;
 }
