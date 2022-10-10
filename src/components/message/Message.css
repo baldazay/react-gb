@@ -1,0 +1,19 @@
+.hello {
+    height: 100px;
+}
+
+.hello-heading {
+    text-align: center;
+    font-size: 45px;
+    color: whitesmoke;
+}
+
+.hello-text {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.userName {
+    color: rgb(193, 126, 1);
+    text-transform: uppercase;
+}
