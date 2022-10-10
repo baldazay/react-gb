@@ -1,19 +1,40 @@
-.hello {
-    height: 100px;
+label {
+    font-size: 20px;
+    color: white;
 }
 
-.hello-heading {
-    text-align: center;
-    font-size: 45px;
-    color: whitesmoke;
+.message-el {
+    margin: 20px auto;
+    width: 72%;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    list-style-type: none;
+    border-radius: 20px;
+    display: flex;
 }
 
-.hello-text {
-    font-size: 30px;
-    font-weight: 700;
+.message-el-name,
+.message-el-text {
+    padding: 10px;
+    text-align: start;
+    border-radius: 10px;
+    background-color: aqua;
+    margin: 0 20px 0 0;
 }
 
-.userName {
-    color: rgb(193, 126, 1);
-    text-transform: uppercase;
+.message-el:nth-child(odd) .message-el-name {
+    background-color: rgb(2, 148, 14);
+}
+
+.message-el:nth-child(even) .message-el-name {
+    background-color: orange;
+}
+
+.message-el:nth-child(odd) .message-el-text {
+    background-color: rgb(0, 196, 16);
+}
+
+.message-el:nth-child(even) .message-el-text {
+    background-color: rgb(163, 107, 2);
 }
