@@ -1,0 +1,16 @@
+.chatPage-wrp {
+    display: flex;
+}
+
+.chatPage__list {
+    width: 25%;
+    background-color: red;
+    position: relative;
+    top: 0;
+}
+
+.chatPage__main {}
+
+.chatPage__main-title {
+    margin: 0;
+}

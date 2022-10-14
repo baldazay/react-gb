@@ -4,37 +4,51 @@ label {
 }
 
 .message-el {
-    margin: 20px auto;
-    width: 72%;
+    margin: 25px 0;
+    width: 100%;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     padding: 5px;
     list-style-type: none;
     border-radius: 20px;
     display: flex;
 }
 
-.message-el-name,
-.message-el-text {
-    padding: 10px;
-    text-align: start;
-    border-radius: 10px;
-    background-color: aqua;
-    margin: 0 20px 0 0;
+.message-el-name-wrp {
+    width: 11%;
 }
 
-.message-el:nth-child(odd) .message-el-name {
+.message-el-text-wrp {
+    width: 89%;
+}
+
+.message-el-name,
+.message-el-text {
+    text-align: start;
+}
+
+.message-el-text {
+    margin: 0 0 0 15px;
+}
+
+.message-el-name-span,
+.message-el-text-span {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.message-el:nth-child(odd) .message-el-name-span {
     background-color: rgb(2, 148, 14);
 }
 
-.message-el:nth-child(even) .message-el-name {
+.message-el:nth-child(even) .message-el-name-span {
     background-color: orange;
 }
 
-.message-el:nth-child(odd) .message-el-text {
+.message-el:nth-child(odd) .message-el-text-span {
     background-color: rgb(0, 196, 16);
 }
 
-.message-el:nth-child(even) .message-el-text {
+.message-el:nth-child(even) .message-el-text-span {
     background-color: rgb(163, 107, 2);
 }

@@ -1,10 +1,27 @@
 .App {
-  min-height: 100vh;
+  height: 100vh;
   text-align: center;
-  background-color: rgb(32, 169, 215);
-  padding: 20px 30px 10px 30px;
+  background-color: rgb(185, 229, 244);
+}
+
+/* .chatlist-wrp {
+  background-color: aliceblue;
+}
+
+.chat-wrp {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-list-wrp {
+  height: 87vh;
+  overflow-y: auto;
 }
 
 .message-list {
-  padding: 0;
+  padding: 0 25px;
 }
+
+.message-form-wrp {
+  height: 13vh;
+} */

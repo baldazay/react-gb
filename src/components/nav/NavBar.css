@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+}
+
+.navbar__page {
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 20px 0;
+    color: aliceblue;
+    border: 2px;
+}
+
+.navbar__page:hover {
+    background-color: brown;
+}
