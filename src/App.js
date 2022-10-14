@@ -3,6 +3,12 @@ import Message from './components/message/Message';
 import ChatList from './components/chatList/ChatList';
 import Form from './components/form/Form';
 import { useState, useEffect } from 'react';
+import NavBar from './components/nav/NavBar';
+import { Routes, Route } from 'react-router-dom';
+import MainPage from './pages/mainPage/MainPage';
+import ChatPage from './pages/chats/ChatPage';
+import Profile from './pages/profile/Profile';
+
 
 
 function App() {
@@ -23,8 +29,18 @@ function App() {
     }
   }, [messageList]);
 
-
   return (
+    <div className='App'>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<MainPage />}></Route>
+        <Route path='chats' element={<ChatPage />}></Route>
+        <Route path='profile' element={<Profile />}></Route>
+      </Routes>
+    </div>
+  )
+
+  /* return (
     <div className="App">
       <div className='chatlist-wrp'>
         <ChatList />
@@ -42,7 +58,7 @@ function App() {
       </div>
 
     </div >
-  );
+  ); */
 
 }
 

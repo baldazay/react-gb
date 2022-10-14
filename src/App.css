@@ -2,12 +2,9 @@
   height: 100vh;
   text-align: center;
   background-color: rgb(185, 229, 244);
-  display: grid;
-  grid-template-columns: 20% 80%;
-  overflow: hidden;
 }
 
-.chatlist-wrp {
+/* .chatlist-wrp {
   background-color: aliceblue;
 }
 
@@ -27,4 +24,4 @@
 
 .message-form-wrp {
   height: 13vh;
-}
+} */

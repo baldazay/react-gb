@@ -11,7 +11,7 @@ function ChatList() {
     const [chatList, setChatList] = useState(['friends', 'family', 'work', 'GeekBrains']);
 
     return (<>
-        <List>
+        <List className="chat__list">
             {chatList.map((chatName, i) => <Chat primary="Spam" chatName={chatName} index={i} />)}
         </List>
     </>)

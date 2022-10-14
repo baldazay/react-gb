@@ -1,0 +1,6 @@
+.chat__list {
+    width: 25%;
+    height: calc(100vh - 61);
+    background-color: whitesmoke;
+    position: absolute;
+}
